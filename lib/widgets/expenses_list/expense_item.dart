@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import "package:expense_tracker/models/expense.dart";
 
+// a card component
+// each mini horizontal card of expenses that only displays stuff 
 class ExpenseItem extends StatelessWidget {
   const ExpenseItem(this.expense, {super.key});
 
